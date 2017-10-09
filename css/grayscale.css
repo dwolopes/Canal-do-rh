@@ -26,14 +26,14 @@ h6 {
   letter-spacing: 1px;
   font-weight: 300; }
 
-h2 { color: black;
+h2 { color: #727173;
 
 }
 p {
   font-size: 16px;
   line-height: 1.5;
   margin: 0 0 25px;
-  color: black; }
+  color: #727173; }
   @media (min-width: 768px) {
     p {
       font-size: 18px;
@@ -80,6 +80,10 @@ a {
       .masthead .intro-body .intro-text {
         font-size: 22px; } }
 
+h1.brand-heading {
+  padding-top: 55px;
+  line-height: 70px;
+}
 .btn-circle {
   font-size: 26px;
   width: 55px;
@@ -108,6 +112,7 @@ a {
 
 .ingressos  {
   color: #0F3A69;
+  font-weight: 800;
 }
 
 .inteligente {
@@ -136,39 +141,48 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
+ .sobre p {
+  text-align: left;
+}
+
 #map {
   width: 100%;
   height: 300px; }
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px; }
+    padding-top: 100px;
+    padding-bottom: 100px; }
   #map {
     height: 350px; } }
 
 .btn {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  border-radius: 0; }
+  text-transform: uppercase; }
 
 .btn-default {
-  color: #42DCA3;
+  color:#00456C;
+  font-weight: 800;
   border: 1px solid #42DCA3;
-  background-color: transparent; }
+  border-radius: 15px;
+  background-color:#00D882 }
+
   .btn-default:focus, .btn-default:hover {
     color: black;
     border: 1px solid #42DCA3;
     outline: none;
     background-color: #42DCA3; }
 
+section#realizacao.text-center.content-section
+{
+  background-color: #464243;
+}
 
 footer {
-  background-color: black;
+  background-color:#464243;
   padding: 50px 0; }
   footer p {
     color: white;
