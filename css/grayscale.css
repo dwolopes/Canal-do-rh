@@ -58,7 +58,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/banner.png") no-repeat bottom center scroll;
+  background: url("../img/banner.png") no-repeat bottom center;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -208,3 +208,9 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+  @media (max-width: 768px){
+    .masthead{
+        background-position: 50% 50%;
+    }
+  }
